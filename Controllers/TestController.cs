@@ -7,7 +7,7 @@ namespace tweetbook.Controllers
         [HttpGet("api/user")]
         public IActionResult GetAction()
         {
-            return Ok(new { name = "Nick" });
+            return Ok(new { name = "Gaben" });
         }
     }
 }
